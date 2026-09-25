@@ -166,22 +166,23 @@ The dashboard allows users to investigate questions such as:
 
 ## 📁 Repository Structure
 
-```text
 PowerBI_Sales_Dashboard/
 │
-├── Dashboard/
-│   └── Sales_Dashboard.pbix
+├── README.md
 │
-├── Screenshots/
-│   ├── dashboard.png
-│   ├── tooltip.png
-│   ├── navigation_buttons.png
-│   ├── ai_visuals.png
-│ 
-├── DAX/
-│   └── DAX_Measures.md
-│
-└── README.md
+└── PowerBI_Sales_Dashboard/
+    │
+    ├── Dashboard/
+    │   └── Sales_Dashboard.pbix
+    │
+    ├── Screenshots/
+    │   ├── dashboard.png
+    │   ├── tooltip.png
+    │   ├── navigation_buttons.png
+    │   └── ai_visuals.png
+    │
+    └── DAX/
+        └── DAX_Measures.md
 
 ## 💡 Skills Demonstrated
 
