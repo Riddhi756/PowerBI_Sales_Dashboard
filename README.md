@@ -110,7 +110,7 @@ The project also demonstrates the use of advanced Power BI capabilities:
 
 ### Main Dashboard
 
-![Main Dashboard](Screenshots/dashboard.png)
+![Main Dashboard](PowerBI_Sales_Dashboard/Screenshots/dashboard.png)
 
 ---
 
@@ -122,13 +122,13 @@ The project also demonstrates the use of advanced Power BI capabilities:
 
 ### Navigation Buttons & Bookmarks
 
-![Navigation Buttons](Screenshots/navigation_buttons.png)
+![Navigation Buttons](PowerBI_Sales_Dashboard/Screenshots/navigation_buttons.png)
 
 ---
 
 ### AI Visuals
 
-![AI Visuals](Screenshots/ai_visuals.png)
+![AI Visuals](PowerBI_Sales_Dashboard/Screenshots/ai_visuals.png)
 
 ---
 
