@@ -116,7 +116,7 @@ The project also demonstrates the use of advanced Power BI capabilities:
 
 ### Report Page Tooltip
 
-![Report Page Tooltip](Screenshots/tooltip.png)
+![Report Page Tooltip](PowerBI_Sales_Dashboard/Screenshots/tooltip.png)
 
 ---
 
