@@ -1,0 +1,42 @@
+# DAX Measures
+
+## Total Sales
+TotalSales = SUM(order_details[Sales])
+
+##Total Profit
+TotalProfit = SUM(order_details[Profit])
+
+##Profit Margin %
+Profit_Margin_% = (SUM('order_details'[Profit]) / SUM('order_details'[Sales])) * 100
+
+##Most Ordered Product
+MostOrderedProduct = 
+    SELECTCOLUMNS(
+        TOPN(
+            1,
+            SUMMARIZE(
+                'products',
+                products[productName],
+                "TotalOrdered",
+                SUM('order_details'[quantityOrdered])
+            ),
+            [TotalOrdered],
+            DESC
+        ),
+        "MostOrderedProduct",
+        products[productName]
+    )
+
+##Sales in 2003
+sales_2003 = 
+CALCULATE(
+    SUM('order_details'[Sales]),
+    orders[OrderYear] = 2003
+)
+
+##Sales in 2004
+sales_2004 = 
+CALCULATE(
+    SUM('order_details'[Sales]),
+    orders[OrderYear] = 2004
+)
