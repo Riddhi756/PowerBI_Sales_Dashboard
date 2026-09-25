@@ -166,6 +166,7 @@ The dashboard allows users to investigate questions such as:
 
 ## 📁 Repository Structure
 
+```text
 PowerBI_Sales_Dashboard/
 │
 ├── README.md
